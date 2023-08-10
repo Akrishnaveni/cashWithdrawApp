@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+}
+.card-container {
+  background-color: #150b3e;
+  height: 100%;
+  padding: 20px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+.first-letter {
+  background-color: #c7d2fe;
+  border-radius: 20px;
+  color: #7c3aed;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.name {
+  color: #d4d2db;
+  font-size: 20px;
+}
+.balance-container {
+  color: #585076;
+  display: flex;
+  justify-content: space-between;
+}
+.amount {
+  color: #d4d2db;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+.amount-descriptions {
+  color: #585076;
+  font-size: 10px;
+}
+.Withdraw {
+  color: #d4d2db;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.withdraw-description {
+  color: #585076;
+  font-size: 20px;
+}
+.denominations-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
