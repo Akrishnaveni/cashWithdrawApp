@@ -12,7 +12,7 @@ class CashWithdrawal extends Component {
   }
 
   render() {
-    const balance = this.state
+    const {balance} = this.state
 
     const denominatorsList = [
       {key: 1, amount: 50},
